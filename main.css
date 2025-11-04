@@ -1,0 +1,35 @@
+#count {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+#count span:not(:last-child)::after {
+  content: ":";
+  margin-left: 5px;
+}
+
+#buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+#start {
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#stop {
+  padding: 5px 10px;
+  font-size: 10px;
+  ont-weight: bold;
+}
+
+#reset {
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
